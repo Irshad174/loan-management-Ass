@@ -1,0 +1,93 @@
+export const initialLoans = [
+{
+id: 1,
+customerName: 'Rahul Verma',
+loanId: 'LN-A1001',
+loanType: 'Home Loan',
+amount: 4500000,
+status: 'Approved',
+city: 'Delhi',
+disbursalDate: '2025-01-05',
+applicationDate: '2024-12-20',
+emiDueDate: '2025-02-05',
+time: '10:30 AM'
+},
+{
+id: 2,
+customerName: 'Anjali Sharma',
+loanId: 'LN-A1002',
+loanType: 'Personal Loan',
+amount: 300000,
+status: 'Pending',
+city: 'Mumbai',
+disbursalDate: null,
+applicationDate: '2025-01-09',
+emiDueDate: null,
+time: '03:45 PM'
+},
+{
+id: 3,
+customerName: 'Rohit Singh',
+loanId: 'LN-A1003',
+loanType: 'Education Loan',
+amount: 850000,
+status: 'Rejected',
+city: 'Delhi',
+disbursalDate: null,
+applicationDate: '2025-01-02',
+emiDueDate: null,
+time: '09:10 AM'
+},
+{
+id: 4,
+customerName: 'Sneha Patel',
+loanId: 'LN-A1004',
+loanType: 'Gold Loan',
+amount: 120000,
+status: 'Approved',
+city: 'Ahmedabad',
+disbursalDate: '2025-01-10',
+applicationDate: '2024-12-25',
+emiDueDate: '2025-02-10',
+time: '12:00 PM'
+},
+{
+id: 5,
+customerName: 'Vikas Yadav',
+loanId: 'LN-A1005',
+loanType: 'Vehicle Loan',
+amount: 650000,
+status: 'In Review',
+city: 'Jaipur',
+disbursalDate: null,
+applicationDate: '2025-01-12',
+emiDueDate: null,
+time: '11:25 AM'
+},
+{
+id: 6,
+customerName: 'Priya Mehta',
+loanId: 'LN-A1006',
+loanType: 'Home Loan',
+amount: 5200000,
+status: 'Approved',
+city: 'Surat',
+disbursalDate: '2025-01-15',
+applicationDate: '2024-12-28',
+emiDueDate: '2025-02-15',
+time: '04:50 PM'
+},
+{
+id: 7,
+customerName: 'Arjun Gupta',
+loanId: 'LN-A1007',
+loanType: 'Business Loan',
+amount: 2400000,
+status: 'Pending',
+city: 'Delhi',
+disbursalDate: null,
+applicationDate: '2025-01-11',
+emiDueDate: null,
+time: '08:20 AM'
+}
+]

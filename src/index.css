@@ -1,0 +1,13 @@
+/* GLOBAL RESET ONLY - Does NOT override components */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: white;
+  color: #222;
+}

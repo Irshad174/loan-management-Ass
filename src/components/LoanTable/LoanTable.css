@@ -1,0 +1,55 @@
+.loan-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+}
+
+.loan-table th,
+.loan-table td {
+    padding: 12px 10px;
+    text-align: left;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.loan-table th {
+    font-weight: 600;
+    background: #f9fafb;
+    cursor: pointer;
+}
+
+.loan-table tr:hover td {
+    background: #f3f4f6;
+}
+
+.status-badge {
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.approved {
+    background: #d1fae5;
+    color: #059669;
+}
+
+.pending {
+    background: #fef9c3;
+    color: #b45309;
+}
+
+.rejected {
+    background: #fee2e2;
+    color: #dc2626;
+}
+
+.in.review {
+    background: #e0e7ff;
+    color: #4338ca;
+}
+
+.no-data {
+    text-align: center;
+    padding: 20px;
+    color: #6b7280;
+}

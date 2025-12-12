@@ -1,0 +1,32 @@
+.dashboard-page {
+    min-height: 100vh;
+    padding: 20px;
+}
+.dashboard-card {
+    padding: 26px;
+    background: rgba(255, 255, 255, 0.88);
+    backdrop-filter: blur(12px);
+    box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.08);
+    margin-top: 20px;
+    padding: 20px 50px;
+}
+.dashboard-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+.dashboard-filter-box {
+    margin-bottom: 20px;
+    padding: 14px;
+    background: #f8faff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+}
+.dashboard-table-box {
+    width: 100%;
+    background: white;
+    border-radius: 12px;
+    padding: 10px;
+    border: 1px solid #e5e7eb;
+    overflow-x: auto;
+}
