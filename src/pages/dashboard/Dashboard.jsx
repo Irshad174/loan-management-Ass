@@ -4,7 +4,7 @@ import FilterBar from "../../components/FilterBar/FilterBar";
 import LoanTable from "../../components/LoanTable/LoanTable";
 
 import { getLoans } from "../../utils/storage";
-import "./Dashboard.css";
+import "./dashboard.css";
 
 export default function Dashboard() {
     const [loans, setLoans] = useState([]);
