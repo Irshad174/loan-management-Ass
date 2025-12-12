@@ -1,4 +1,3 @@
-// small wrapper for localStorage keys
 const USERS_KEY = 'lm_users_v1'
 const LOANS_KEY = 'lm_loans_v1'
 const AUTH_KEY = 'lm_auth_user_v1'

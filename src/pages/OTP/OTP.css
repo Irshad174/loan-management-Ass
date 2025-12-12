@@ -69,3 +69,9 @@
   font-weight: 600;
   box-shadow: 0 4px 16px rgba(99, 102, 241, 0.4);
 }
+@media (max-width:375px){
+  .otp-input{
+    height:40px;
+    width: 40px;
+  }
+}

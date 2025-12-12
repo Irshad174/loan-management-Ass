@@ -37,7 +37,6 @@ export default function FilterBar({ loans, onFilter }) {
         setFilters((prev) => ({ ...prev, [key]: value }));
     };
 
-    // ⭐ CLEAR ALL FILTERS
     const clearAllFilters = () => {
         setFilters({
             q: "",
@@ -48,7 +47,7 @@ export default function FilterBar({ loans, onFilter }) {
             to: "",
         });
 
-        setQInput(""); // search input UI reset
+        setQInput("");
     };
  const isFilterApplied = () => {
         return (

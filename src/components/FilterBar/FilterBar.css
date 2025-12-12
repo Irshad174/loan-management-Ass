@@ -1,50 +1,3 @@
-/* .filter-bar {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 25px;
-  margin-bottom: 14px;
-}
-
-.search-input {
-  min-width: 220px;
-}
-.input-field {
-    font-size: 16px;
-    outline: none;
-    transition: 0.2s ease-in-out;
-    background-color: #f3f4f6; 
-    width: 200px; 
-    padding: 10px 15px;
-    border-radius: 12px; 
-    border: 1px solid #ddd; 
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
-}
-
-.input-field:focus {
-    
-     border-color: #aaa;
-        box-shadow: 0 0 8px rgba(169, 169, 169, 0.5); 
-
-}
-.clear-btn {
-    padding: 10px 16px;
-    background: #f1f5f9;
-    color: #475569;
-    border: 1px solid #cbd5e1;
-    border-radius: 10px;
-    font-size: 14px;
-    font-weight: 500;
-    cursor: pointer;
-    transition: all 0.25s ease;
-}
-
-.clear-btn:hover {
-    background: #e2e8f0;
-    border-color: #94a3b8;
-    transform: translateY(-1px);
-} */
-
-
 .filter-bar {
   display: flex;
   flex-wrap: wrap;
@@ -90,10 +43,6 @@
     border-color: #94a3b8;
     transform: translateY(-1px);
 }
-
-/* Media Queries for Responsive Design */
-
-/* For Tablets and Larger Mobile Devices (768px to 1024px) */
 @media (max-width: 1024px) {
   .filter-bar {
     gap: 15px;
@@ -112,7 +61,6 @@
   }
 }
 
-/* For Smaller Mobile Devices (up to 768px) */
 @media (max-width: 768px) {
   .filter-bar {
     flex-direction: column;
