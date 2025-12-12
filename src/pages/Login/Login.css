@@ -25,8 +25,8 @@ background: linear-gradient(180deg, #84a9ac, #3b6978, #204051);
 .form-group {
     display: flex;
     flex-direction: column;
-    gap: 8px;      /* Label और input के बीच gap */
-    margin-bottom: 12px;  /* ⭐ Next field के साथ gap */
+    gap: 8px;     
+    margin-bottom: 12px; 
 }
 
 .welcome-sub {
@@ -91,7 +91,7 @@ background: linear-gradient(180deg, #84a9ac, #3b6978, #204051);
 }
 
 .login-card {
-    width: 430px;
+    width: 80%;
     background: white;
     padding: 38px;
     border-radius: 18px;
@@ -184,3 +184,88 @@ background: linear-gradient(180deg, #84a9ac, #3b6978, #204051);
     opacity: 0.85;
     color: #ffffff;
 }
+
+
+
+@media (max-width: 1024px) {
+
+    .right-section{
+        padding: 20px;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+
+    .right-section{
+        padding: 20px;
+    }
+    .login-card{
+        width: 80%;
+    }
+    .login-subtitle{
+        font-size: 12px;
+    }
+    
+}
+
+@media (max-width: 576px) {
+
+  
+
+    .login-page {
+        flex-direction: column;
+        /* height: auto; */
+    }
+
+    .left-section {
+        flex: none;
+        height: 300px;
+        padding: 30px;
+    }
+
+    .welcome-title {
+        font-size: 38px;
+    }
+
+    .right-section {
+        padding: 30px 0;
+    }
+
+    .login-card {
+        width: 80%;
+    }
+} 
+
+
+
+@media (max-width: 480px) {
+
+  
+
+    .login-page {
+        flex-direction: column;
+        /* height: auto; */
+    }
+
+    .left-section {
+        flex: none;
+        height: 300px;
+        padding: 30px;
+    }
+
+    .welcome-title {
+        font-size: 38px;
+    }
+
+    .right-section {
+        padding: 30px 0;
+    }
+
+    .login-card {
+        width: 100%;
+    }
+} 
+
+

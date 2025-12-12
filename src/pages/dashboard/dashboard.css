@@ -30,3 +30,63 @@
     border: 1px solid #e5e7eb;
     overflow-x: auto;
 }
+
+
+.dashboard-table-box {
+    width: 100%;
+    background: white;
+    border-radius: 12px;
+    padding: 10px;
+    border: 1px solid #e5e7eb;
+    overflow-x: auto; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+
+@media screen and (max-width: 768px) {
+    table {
+        min-width: 600px; 
+    }
+
+    th, td {
+        font-size: 14px; 
+    }
+}
+
+@media screen and (max-width: 576px) {
+    
+    .dashboard-table-box {
+        overflow-x: auto;
+    }
+
+    table {
+        min-width: 500px; 
+    }
+
+    th, td {
+        font-size: 12px;
+    }
+
+   
+    th:nth-child(4), td:nth-child(4) {
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width:576px) {
+    .dashboard-card{
+        padding: 20px 20px;
+    }
+}

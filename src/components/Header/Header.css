@@ -34,3 +34,9 @@
     background: #1e40af;
     transform: translateY(-2px);
 }
+
+@media screen and (max-width:576px) {
+    .header{
+        padding: 20px 20px;
+    }
+}
